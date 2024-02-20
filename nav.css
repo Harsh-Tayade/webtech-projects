@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour&display=swap');
+
+*{
+    box-sizing: border-box;
+    /* outline: blue solid; */
+    margin: 0;
+    padding: 0;
+    background-color: #601A2B;
+}
+
+.icon{
+    display: flex;
+    justify-content: start;
+    cursor: pointer;
+}
+
+
+.icon h1{
+    font-family: "Sixtyfour";
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.icon:hover h1{
+    color: #ffde23;
+}
+
+.icon:hover img{
+    border: #ffde23 solid;
+    background-color: rgb(170, 29, 64)
+}
+
+.icon img{
+    border-radius: 20%;
+    border: white solid;
+    background-color: #ec6565;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+
+nav{
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+
+
+li, a, button{
+    font-family: "Montserrat", "Roboto";
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    transition: all 0.3s ease 0s;
+}
+
+li, a:hover{
+    color: #ffde23;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.contact-button{
+    padding: 9px 25px;
+    background-color:#ec6565;
+    border: none;
+    border-radius: 50px;
+}
+
+.contact-button > a{
+    color: #fff;
+}
+
+.contact-button:hover, .contact-button:focus{
+    background-color: #d14e4e;
+}
+
+.contact{
+    display: flex;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+}
